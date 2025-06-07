@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Yacht-Inspired Design",
-  description: "Spacious all-suite accommodations with private terraces, high ceilings, and stylish interiors offer an open, residential feel.",
+  title: "Legendary Ritz-Carlton Luxury",
+  description: "Brings the iconic brand’s signature service and sophistication to sea.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Legendary Ritz-Carlton Service",
-  description: "A nearly 1:1 crew-to-guest ratio ensures anticipatory, attentive service that caters to your every need.",
+  title: "Yacht-Style Cruising",
+  description: "Spacious suites, gourmet cuisine, and relaxed elegance on custom-built yachts.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Curated Itineraries",
-  description: "Each voyage is designed to explore the iconic and the unexpected—from the Mediterranean to the Caribbean and beyond.",
+  title: "Immersive Shore Programs",
+  description: "Curated excursions and overnight stays connect guests with local culture and lifestyle.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Locally Inspired Culinary Excellence",
-  description: "From fine dining to alfresco fare, cuisine reflects each region visited—guided by a philosophy of sustainable sourcing and elevated presentation.",
+  title: "Personalized Onboard Experience",
+  description: "A high staff-to-guest ratio ensures bespoke attention throughout your journey.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Ritz-Carlton Yacht Collection Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
